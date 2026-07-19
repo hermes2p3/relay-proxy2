@@ -1,0 +1,24 @@
+{
+  "name": "relay-proxy",
+  "version": "1.0.0",
+  "description": "Bypass internet restrictions via GitHub relay",
+  "main": "src/index.js",
+  "bin": {
+    "relay-proxy": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js"
+  },
+  "keywords": [
+    "proxy",
+    "relay",
+    "github",
+    "bypass"
+  ],
+  "author": "hermes2p3",
+  "license": "MIT",
+  "dependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
